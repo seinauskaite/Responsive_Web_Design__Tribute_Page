@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&display=swap");
+      body {
+        background-color: rgb(234, 242, 242);
+        font-family: "Source Code Pro", monospace;
+      }
+      #image {
+        max-width: 80%;
+        display: block;
+        margin: auto auto;
+        border-radius: 1rem;
+      }
+      #img-div {
+        background-color: rgb(174, 202, 210);
+        max-width: 90%;
+        display: block;
+        margin: auto;
+        padding: 15px;
+        border-radius: 1rem;
+        border-style: solid;
+      }
+      #title {
+        text-align: center;
+        font-size: 50px;
+      }
+      #img-caption {
+        font-size: 1em;
+        color: rgb(26, 28, 40);
+        padding-left: 150px;
+      }
+      #tribute-info {
+        margin: 50px;
+      }
+      #tribute-link {
+        margin-left: 100px;
+        color: black;
+        font-weight: 700;
+      }
+      #bottom {
+        height: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <main id="main">
+      <h1 id="title">
+        Truman Show
+      </h1>
+      <div id="img-div">
+        <img
+          id="image"
+          alt="Truman"
+          src="https://pics.filmaffinity.com/The_Truman_Show-391445627-large.jpg"
+        />
+        <imgcaption id="img-caption">
+          pav. Amazing movie
+        </imgcaption>
+      </div>
+
+      <section>
+        <p id="tribute-info">
+          "The Truman Show" is founded on an enormous secret that all of the
+          studio's advertising has been determined to reveal. I didn't know the
+          secret when I saw the film, and was able to enjoy the little doubts
+          and wonderings that the filmmakers so carefully planted. If by some
+          good chance you do not know the secret, read no further. <br /><br />
+          Why did she leave so quickly? Perhaps because she was not a safe bet
+          for Truman's world: The actress who played her (named Sylvia)
+          developed real feeling and pity for Truman, and felt he should know
+          the truth about his existence. Meryl, on the other hand, is a reliable
+          pro (which raises the question, unanswered, of their sex life).
+        </p>
+        <a
+          id="tribute-link"
+          target="_blank"
+          href="https://www.rogerebert.com/reviews/the-truman-show-1998"
+        >
+          More about Truman Show
+        </a>
+        <div id="bottom"></div>
+      </section>
+    </main>
+  </body>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
